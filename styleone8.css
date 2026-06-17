@@ -1,0 +1,494 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+
+nav {
+        background-color: black;
+        display: flex;
+        height: 80px;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        width: 100%;
+        z-index: 10000000;
+
+
+
+}
+
+.navmenu {
+        display: flex;
+        column-gap: 20px;
+        align-items: center;
+        margin-right: 30px;
+        color: white;
+}
+
+button {
+        background-color: white;
+        color: black;
+        border: 2px solid #72f7f2;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+
+
+}
+
+
+button:hover {
+        background-color: #72f7f2;
+        transform: scale(1.05);
+
+
+}
+
+a {
+        text-decoration: none;
+        color: white;
+}
+
+a:hover {
+        color: #72f7f2;
+}
+
+
+.hero {
+        background-image: url(/public/03.webp);
+        background-size: cover;
+        background-position: center;
+        color: white;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        padding-top: 350px;
+
+
+}
+
+
+.background {
+
+        background-size: cover;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        height: 250px;
+        width: 100%;
+}
+
+.transbox {
+        background-color: transparent;
+        -webkit-backdrop-filter: blur(4px);
+        backdrop-filter: blur(50px);
+        padding: 20px;
+        margin: 30px;
+        font-weight: bold;
+        border-radius: 15px;
+
+}
+
+.bt {
+        padding: 20px 900px;
+
+}
+
+.heading {
+        text-align: center;
+        padding: 30px;
+}
+
+.cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 25%;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 10px;
+
+}
+
+section {
+        background-color: rgba(112, 128, 144, 0.368);
+        padding-bottom: 30px;
+
+}
+
+.allcards {
+        display: flex;
+        justify-content: space-around;
+}
+
+.our {
+        text-align: center;
+        padding: 30px;
+
+
+}
+
+.cardimg {
+        padding: 20px;
+        margin: 0 auto;
+}
+
+.content {
+        text-align: center;
+
+
+
+}
+
+.desc {
+        padding: 10px;
+}
+
+.button {
+        padding: 20px;
+
+}
+
+.bg {
+        background-color: white;
+        height: 35vh;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.why {
+        text-align: center;
+        line-height: 1.5;
+
+
+
+}
+
+
+.us {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        justify-content: space-evenly;
+        margin-right: 50px 0;
+
+
+}
+
+.cc {
+
+        width: 80px;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+
+
+}
+
+.ww {
+        padding: 10px 0 20px;
+
+}
+
+.tt {
+        display: flex;
+        justify-content: space-around;
+
+}
+
+.navlogo1 {
+        padding-right: 50px;
+}
+
+
+
+footer {
+
+        background-color: #000;
+        color: white;
+        padding: 40px 20px 10px;
+        margin-top: 10px;
+
+}
+
+.footer-content {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+}
+
+.footer-section {
+        width: 20%;
+        font-size: 20px;
+
+
+}
+
+.footer-section h2 {
+        margin-bottom: 15px;
+        color: #00cfe8;
+}
+
+.footer-section p {
+        margin: 8px 0;
+}
+
+.footer-bottom {
+        text-align: center;
+        border-top: 1px solid gray;
+        margin-top: 10px;
+        padding-top: 15px;
+}
+
+
+.firstsection {
+        background-image: url(./public/92917-ViratKohliOne8Select.avif);
+        background-size: cover;
+        height: 100vh;
+}
+
+.abt h1 {
+        font-size: 40px;
+}
+
+.secondsection {
+        text-align: center;
+        padding: 30px;
+
+}
+
+.pp {
+        padding: 20px;
+        text-align: center;
+        width: 60%;
+        margin-left: 380px;
+        font-size: 20px;
+        line-height: 1.5;
+
+
+}
+
+.section1 {
+        background-size: cover;
+        height: 100vh;
+        background-image: url(./public/maxresdefault.jpg);
+
+
+}
+
+
+
+.second2 {
+        text-align: center;
+        padding: 30px;
+
+}
+
+.allcards01 {
+        display: flex;
+        justify-content: space-around;
+}
+
+
+
+.cards01 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 23%;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 10px;
+
+}
+
+
+.heroes {
+        background-image: url(./public/1822730-one8.webp);
+        background-size: cover;
+        background-position: center;
+        color: white;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+
+
+}
+
+
+.background1 {
+
+        background-size: cover;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        height: 250px;
+        width: 100%;
+}
+
+.transbox1 {
+        background-color: transparent;
+        -webkit-backdrop-filter: blur(4px);
+        backdrop-filter: blur(50px);
+        padding: 20px;
+        margin: 30px;
+        font-weight: bold;
+        border-radius: 15px;
+
+}
+
+
+.contact {
+        text-align: center;
+        padding: 50px;
+
+
+}
+
+.contact h1 {
+        margin-bottom: 30px;
+}
+
+.contact form {
+        width: 20%;
+        margin: auto;
+
+
+}
+
+.contact input,
+.contact textarea {
+        width: 100%;
+        padding: 12px;
+        margin: 10px 0;
+
+
+}
+
+.contact button {
+        background: #00cfe8;
+        color: white;
+        border: none;
+        padding: 12px 25px;
+        cursor: pointer;
+}
+
+.signin {
+        text-align: center;
+        padding: 100px;
+        background: #00cfe8;
+        height: 100vh;
+}
+
+.signin form {
+        width: 30%;
+        margin: auto;
+        height: 15vh;
+
+}
+
+.signin input {
+        width: 70%;
+        padding: 12px;
+        margin: 10px 0;
+        border: 1px solid white;
+
+}
+
+.signin button {
+        width: 30%;
+        background: #00cfe8;
+        color: white;
+        border: none;
+        padding: 12px;
+        cursor: pointer;
+}
+
+.acc {
+        margin-top: 20px;
+}
+
+.acc a {
+
+        color: #00cfe8;
+
+}
+
+.ss {
+        padding: 5px;
+        width: 100%;
+}
+
+.cardss {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 80%;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 10px;
+        margin: 60px;
+        height: 350px;
+        align-items: center;
+
+}
+
+.nm label {
+
+        color: black;
+        margin-right: 350px;
+        margin-left: 60px;
+
+}
+
+.rm label {
+
+        color: black;
+        margin-right: 330px;
+        margin-left: 60px;
+
+
+}
+
+
+.nm input {
+        border: 1px solid black;
+        border-radius: 5px;
+        margin-left: 60px;
+
+
+}
+
+.rm input {
+        border: 1px solid black;
+        border-radius: 5px;
+        margin-left: 60px;
+}
+
+.rm {
+        display: flex;
+        flex-direction: column;
+
+}
+
+.nm {
+        display: flex;
+        flex-direction: column;
+
+}
+
+.cc p {
+        font-size: 20px;
+        width: 150px;
+}
+
+
+.signincard {
+        width: 400px;
+        height: 600px;
+        color: #00cfe8;
+}
