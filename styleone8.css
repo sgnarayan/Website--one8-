@@ -19,6 +19,11 @@ nav {
 
 }
 
+.navlogo img{
+          width: 100px;
+          height: 10vh;
+}
+
 .navmenu {
         display: flex;
         column-gap: 20px;
@@ -360,7 +365,16 @@ footer {
 
 }
 
-.contact input,
+.contact input
+               {
+        width: 100%;
+        padding: 12px;
+        margin: 10px 0;
+
+
+}
+
+
 .contact textarea {
         width: 100%;
         padding: 12px;
@@ -487,8 +501,195 @@ footer {
 }
 
 
-.signincard {
-        width: 400px;
-        height: 600px;
-        color: #00cfe8;
+
+
+
+
+@media screen and (max-width: 600px) {
+
+  
+  nav {
+    width: 100%;
+    height: 60px;
+    padding: 0 10px;
+     max-width: 100%;
+  }
+
+  .navlogo img{
+          width: 100%;
+          height: 5vh;
 }
+
+  .navmenu {
+    gap: 8px;
+    margin-right: 10px;
+    flex-wrap: wrap;
+  }
+
+  .navmenu p {
+    font-size: 10px;
+  }
+
+  button {
+    padding: 5px 8px;
+    font-size: 10px;
+  }
+
+  
+  .hero {
+    height: 60vh;
+    padding-top: 120px;
+     max-width: 100%;
+  }
+
+  .background {
+    margin-top: 0;
+    text-align: center;
+     max-width: 100%;
+  }
+
+  .transbox {
+    font-size: 14px;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .firstsection {
+        
+        height: 40vh;
+        
+        
+}
+
+
+
+
+  .ww p{
+        font-size: 13px;
+  }
+
+  .bt {
+    text-align: center;
+    padding: 10px;
+  }
+
+  
+  .allcards
+   {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .cards {
+    width: 90%;
+     max-width: 100%;
+  }
+  
+
+  .section1 {
+       
+        height: 40vh;
+       
+
+
+}
+
+.allcards01
+   {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .cards01 {
+    width: 90%;
+     max-width: 100%;
+  }
+  
+
+
+  
+
+  .cardimg img {
+    width: 100%;
+    height: auto;
+  }
+
+  
+  .bg {
+    height: auto;
+    padding: 20px 10px;
+  }
+
+  .tt {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .cc {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .footer-section {
+    width: 100%;
+  }
+
+ 
+  .pp {
+    width: 90%;
+    margin-left: 0;
+    font-size: 16px;
+  }
+
+ 
+  .contact form {
+    width: 90%;
+  }
+
+
+  .signin form {
+    width: 90%;
+  }
+
+.signin {
+        text-align: center;
+        
+        background: #00cfe8;
+        height: 100vh;
+}
+
+
+
+
+
+
+
+.cardss {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 350px;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 10px;
+        margin-left: -90px;
+        height: 340px;
+        align-items: center;
+
+}
+ 
+
+  
+}
+
